@@ -3,6 +3,8 @@ A Summary of Clean Code Book from Robert Martin (Autor) *big thanks for the codi
 
 Robert C. “Uncle Bob” Martin has been a software professional since 1970 and an international software consultant since 1990. He is founder and president of Object Mentor, Inc., a team of experienced consultants who mentor their clients worldwide in the fields of C++, Java, C#, Ruby, OO, Design Patterns, UML, Agile Methodologies, and eXtreme programming.
 
+C Based Ideas for a good Code: https://opensource.com/article/19/5/how-write-good-c-main-function
+
 ## Index
 ```
 	Index:
