@@ -72,8 +72,8 @@ this.description = description;
  
  ## Some tips for Class and Method Names
  ### Class
- Class name shoud be Noun or none phrase like employee , Customer. 
- Avoid data, info ,item in those name.
+ * Class name shoud be Noun or none phrase like employee , Customer. 
+ * Avoid data, info ,item in those name.
  ### Function
- Function name should be verb or verb phrase. Like getCustomers , addEmployee.
- Always try to add some prefix like get,add , post etc.
+ * Function name should be verb or verb phrase. Like getCustomers , addEmployee.
+ * Always try to add some prefix like get,add , post etc.
