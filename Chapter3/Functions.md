@@ -21,8 +21,9 @@ Unfortunately
 we can’t always avoid switch statements, but we can make sure that each switch
 statement is buried in a low-level class and is never repeated. We do this, of course, with
 polymorphism.
-For Example:
 
+For Example:
+```
 public Money calculatePay(Employee e)
 throws InvalidEmployeeType {
 switch (e.type) {
@@ -35,9 +36,9 @@ return calculateSalariedPay(e);
 default:
 throw new InvalidEmployeeType(e.type);
 }
-
+```
 We can turn the code into this
-
+```
 public abstract class Employee {
 public abstract boolean isPayday();
 public abstract Money calculatePay();
@@ -62,6 +63,7 @@ throw new InvalidEmployeeType(r.type);
 }
 }
 }
+```
 This will speed up the encasulation of our codes. 
 
 ## Use Descriptive Names
@@ -75,9 +77,10 @@ We should less arguments as possible . Zero argument is ideal for function.One i
 How we can reduce our arguments. We can pass those arguments as objrct.Reducing the number of arguments by creating objects out of them may seem like
 cheating, but it’s not.
 Example:
+```
 Circle makeCircle(double x, double y, double radius);
 Circle makeCircle(Point center, double radius);
-
+```
 ## Command Query Separation
 Functions should either do something or answer something, but not both. For Example
 
@@ -92,6 +95,7 @@ When you return an error code, you create the problem that the caller must deal 
 the error immediately.On the other hand, if you use exceptions instead of returned error codes, then the error
 processing code can be separated from the happy path code and can be simplified.
 For example :
+```
 if (deletePage(page) == E_OK) {
 if (registry.deleteReference(page.name) == E_OK) {
 if (configKeys.deleteKey(page.name.makeKey()) == E_OK){
@@ -105,9 +109,9 @@ logger.log("deleteReference from registry failed");
 } else {
 logger.log("delete failed");
 return
-
+```
 that can be convert into 
-
+```
 try {
 deletePage(page);
 registry.deleteReference(page.name);
@@ -116,4 +120,4 @@ configKeys.deleteKey(page.name.makeKey());
 catch (Exception e) {
 logger.log(e.getMessage());
 }
-
+```
