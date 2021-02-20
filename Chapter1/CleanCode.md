@@ -93,11 +93,11 @@ would be How to Care for Code.</p>
 <h2>Ron Jeffries:</h2>
 <p>In recent years I begin, and nearly end, with Beck’s
 rules of simple code. In priority order, simple code:</br>
-1. Runs all the tests;</br>
-1. Contains no duplication;</br>
-1. Expresses all the design ideas that are in the
+- Runs all the tests;</br>
+- Contains no duplication;</br>
+- Expresses all the design ideas that are in the
 system;</br>
-1. Minimizes the number of entities such as classes,
+- Minimizes the number of entities such as classes,
 methods, functions, and the like.</br></p>
 
 <p>When the same thing is done over and over,
