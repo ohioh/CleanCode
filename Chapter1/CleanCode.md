@@ -37,7 +37,8 @@ Writing clean code requires the disciplined use of a myriad little techniques ap
 through a painstakingly acquired sense of “cleanliness.” This “code-sense” is the key.
 
 ### What Is Clean Code?
-Bjarne Stroustrup: I like my code to be elegant and efficient. The
+<h2>Bjarne Stroustrup:</h2>
+I like my code to be elegant and efficient. The
 logic should be straightforward to make it hard
 for bugs to hide, the dependencies minimal to
 ease maintenance, error handling complete
@@ -53,7 +54,8 @@ well.
 function, each class, each module exposes a single-minded attitude that remains entirely
 undistracted, and unpolluted, by the surrounding details.
 
-Grady Booch:Clean code is simple and direct. Clean code
+<h2>Grady Booch:</h2>C
+lean code is simple and direct. Clean code
 reads like well-written prose. Clean code never
 obscures the designer’s intent but rather is full
 of crisp abstractions and straightforward lines
@@ -62,7 +64,7 @@ of control.
 read like well-written prose.
 -> “crisp abstraction” to be a fascinating oxymoron!
 
-“Big” Dave Thomas:
+<h2>“Big” Dave Thomas:</h2>
 <p>Clean code can be read, and enhanced by a
 developer other than its original author. It has
 unit and acceptance tests. It has meaningful
@@ -90,13 +92,13 @@ would be How to Care for Code.</p>
 
 <h2>Ron Jeffries:</h2>
 <p>In recent years I begin, and nearly end, with Beck’s
-rules of simple code. In priority order, simple code:
-• Runs all the tests;
-• Contains no duplication;
-• Expresses all the design ideas that are in the
-system;
-• Minimizes the number of entities such as classes,
-methods, functions, and the like.</p>
+rules of simple code. In priority order, simple code:</br>
+1. Runs all the tests;</br>
+1. Contains no duplication;</br>
+1. Expresses all the design ideas that are in the
+system;</br>
+1. Minimizes the number of entities such as classes,
+methods, functions, and the like.</br></p>
 
 <p>When the same thing is done over and over,
 it’s a sign that there is an idea in our mind that is not well represented in the code. I try to
@@ -104,3 +106,10 @@ figure out what it is. Then I try to express that idea more clearly.</p>
 
 <p>Ron has summarized the contents of this book. No
 duplication, one thing, expressiveness, tiny abstractions. Everything is there.</p>
+
+<h2>WArd Cunningham</h2>
+<p>You know you are working on clean code when each
+routine you read turns out to be pretty much what
+you expected. You can call it beautiful code when
+the code also makes it look like the language was
+made for the problem.</p>
