@@ -131,9 +131,9 @@ made for the problem.</p>
 11.  Start to focus your code ( this unit has to be well ) before starting the next part. go to next segment/section/unit if the code is awesome
 12.  Start to create "Lord of the rings" first chapter ( remember: "clean code should read like well-written prose" )
 13. Optimize the concept ( " minimal dependencies, which are explicitly defined, and provides a clear and minimal API" )
-
+14. check 1-13
 cares your code and read it as a non author without coding language and refelct the need to concentrate to understand you code
 
 
+Software -> Programme -> Code ->
 Task -> Segment -> Section -> Unit -> Line -> Comments
-
