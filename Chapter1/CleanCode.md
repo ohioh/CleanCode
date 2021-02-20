@@ -16,10 +16,8 @@ The difference is at the same investment of time the base in clean code for goin
 ### Attitude: 
 Why does this happen to code? Why does good code rot so quickly into bad code?
 <p>But the fault is not in our stars, but in ourselves.We are unprofessional.</p>
-
 A ***philosphy in the managment and in the company strategy*** is needed.
 The need is to see the awesome creativty in the clean code. This can have issuess too but they have to be at the todo list and it needs the discilpine to work first with the todo and then adding new code.
-
 An internal review to the code with our self on a ***true refelction is*** important.
 So too it is unprofessional for programmers to bend to the will of managers who don’t
 understand the risks of making messes.
