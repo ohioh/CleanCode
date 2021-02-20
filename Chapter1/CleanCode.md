@@ -63,7 +63,7 @@ read like well-written prose.
 -> “crisp abstraction” to be a fascinating oxymoron!
 
 “Big” Dave Thomas:
-Clean code can be read, and enhanced by a
+<p>Clean code can be read, and enhanced by a
 developer other than its original author. It has
 unit and acceptance tests. It has meaningful
 names. It provides one way rather than many
@@ -72,9 +72,35 @@ dencies, which are explicitly defined, and pro-
 vides a clear and minimal API. Code should be
 literate since depending on the language, not all
 necessary information can be expressed clearly
-in code alone
+in code alone </p>
+<p>
 -> Dave asserts that
 clean code makes it easy for other people to enhance it
 -> the discipline of Test Driven Development
 -> Code,without tests, is not clean.
--> code should be literate.
+-> code should be literate.</p>
+
+
+<h2>Michael Feathers:</h2>
+<p>Clean code always
+looks like it was written by someone who cares.
+One word: care. That’s really the topic of
+this book. Perhaps an appropriate subtitle
+would be How to Care for Code.</p>
+
+<h2>Ron Jeffries:</h2>
+<p>In recent years I begin, and nearly end, with Beck’s
+rules of simple code. In priority order, simple code:
+• Runs all the tests;
+• Contains no duplication;
+• Expresses all the design ideas that are in the
+system;
+• Minimizes the number of entities such as classes,
+methods, functions, and the like.</p>
+
+<p>When the same thing is done over and over,
+it’s a sign that there is an idea in our mind that is not well represented in the code. I try to
+figure out what it is. Then I try to express that idea more clearly.</p>
+
+<p>Ron has summarized the contents of this book. No
+duplication, one thing, expressiveness, tiny abstractions. Everything is there.</p>
