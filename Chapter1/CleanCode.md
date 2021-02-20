@@ -2,7 +2,7 @@
 
 
 ### What is bad Code?
-If code is not understandable like a good book, the complexity needs long time to understand and documentation is unclear or not avaible, "To do" list is long,
+If code is not understandable ***like a good book***, the ***complexity needs long time*** to understand and documentation is unclear or not avaible, "To do" list is long,
 and no clear structur and reusability is not given...
 the "red line" in the code is maybe visible but different ways/ possbilities are not clear. 
 
@@ -15,12 +15,12 @@ The difference is at the same investment of time the base in clean code for goin
 
 ### Attitude: 
 Why does this happen to code? Why does good code rot so quickly into bad code?
-But the fault, dear Dilbert, is not in our stars, but in ourselves.We are unprofessional.
+<p>But the fault is not in our stars, but in ourselves.We are unprofessional.</p>
 
-A philosphy in the managment and in the company strategy is needed.
+A ***philosphy in the managment and in the company strategy*** is needed.
 The need is to see the awesome creativty in the clean code. This can have issuess too but they have to be at the todo list and it needs the discilpine to work first with the todo and then adding new code.
 
-An internal review to the code with our self on a true refelction is important.
+An internal review to the code with our self on a ***true refelction is*** important.
 So too it is unprofessional for programmers to bend to the will of managers who don’t
 understand the risks of making messes.
 
@@ -55,12 +55,12 @@ function, each class, each module exposes a single-minded attitude that remains 
 undistracted, and unpolluted, by the surrounding details.
 
 <h2>Grady Booch:</h2>C
-lean code is simple and direct. Clean code
+Clean code is ***simple and direct***. Clean code
 reads like well-written prose. Clean code never
 obscures the designer’s intent but rather is full
 of crisp abstractions and straightforward lines
 of control.
--> readability perspective. clean code should
+-> ***readability perspective***. clean code should
 read like well-written prose.
 -> “crisp abstraction” to be a fascinating oxymoron!
 
@@ -107,9 +107,35 @@ figure out what it is. Then I try to express that idea more clearly.</p>
 <p>Ron has summarized the contents of this book. No
 duplication, one thing, expressiveness, tiny abstractions. Everything is there.</p>
 
-<h2>WArd Cunningham</h2>
+<h2>Ward Cunningham</h2>
 <p>You know you are working on clean code when each
 routine you read turns out to be pretty much what
 you expected. You can call it beautiful code when
 the code also makes it look like the language was
 made for the problem.</p>
+
+
+<h2>Summary: Strategy and possible Derivations</h2> 
+***true refelection*** 
+***simple and direct***
+***elegant and efficient Logic ***
+
+1.  Define & Point the Needs of the work and Goal
+2.  explain process ("Expresses all the design ideas that are in the system")
+3.  give input
+4.  calculate the output
+5.  Name the process and subprocess ( "meaningful names")
+6.  Visulaize the logic and compare to code idea
+7.  divide and conquere Problems
+8.  Create command guide to the goal
+9.  Splitt in small closed and well created parts ("No duplication, one thing, expressiveness, tiny abstractions")
+10.  Make functions, classes and Moduls autarc and connectable ("Minimizes the number of entities such as classes,methods, functions ")
+11.  Start to focus your code ( this unit has to be well ) before starting the next part. go to next segment/section/unit if the code is awesome
+12.  Start to create "Lord of the rings" first chapter ( remember: "clean code should read like well-written prose" )
+13. Optimize the concept ( " minimal dependencies, which are explicitly defined, and provides a clear and minimal API" )
+
+cares your code and read it as a non author without coding language and refelct the need to concentrate to understand you code
+
+
+Task -> Segment -> Section -> Unit -> Line -> Comments
+
