@@ -135,5 +135,18 @@ made for the problem.</p>
 cares your code and read it as a non author without coding language and refelct the need to concentrate to understand you code
 
 
-Software -> Programme -> Code ->
+Software -> Programme -> ("Program"-)Code ->
 Task -> Segment -> Section -> Unit -> Line -> Comments
+
+Topic Goals defined in the ISO 25000:
+- Functionality 
+- Reliability
+- Useability
+- Efficience
+- Modifiability
+- Portability
+
+(-Transparency && Testability )
+
+Try to make this quality objectives verifiable and measurable.
+
