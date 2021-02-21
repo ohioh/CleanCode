@@ -69,6 +69,9 @@ This will speed up the encasulation of our codes.
 ***Reading Code from Top to Bottom: The Stepdown Rule***
 If we solve or focus to solve one task per line we have to make sure that the answer ( the next abstraction layer is below )
 make that TO do That TO do this end so one
+</br>
+> “You know you are working on clean code
+> when each routine turns out to be pretty much what you expected.”
 
 Oncle Bob gave an awesome quote to this:
 > ***To*** include the setups and teardowns, we ***include*** setups, ***then*** we ***include*** the test page content, and then we ***include*** the teardowns.
