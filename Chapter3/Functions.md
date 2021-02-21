@@ -66,6 +66,17 @@ throw new InvalidEmployeeType(r.type);
 ```
 This will speed up the encasulation of our codes. 
 
+***Reading Code from Top to Bottom: The Stepdown Rule***
+If we solve or focus to solve one task per line we have to make sure that the answer ( the next abstraction layer is below )
+make that TO do That TO do this end so one
+
+Oncle Bob gave an awesome quote to this:
+> ***To*** include the setups and teardowns, we ***include*** setups, ***then*** we ***include*** the test page content, and then we ***include*** the teardowns.
+> ***To include*** the setups, we ***include*** the suite setup if this is a suite, then we include the regular setup.
+> ***To*** include the suite setup, we search the parent hierarchy for the “SuiteSetUp” page
+> and add an include statement with the path of that page.To search the parent. . .
+
+
 ## Use Descriptive Names
 
 Choosing good and meaningfull names for small functions that do one thing.The smaller and more focused a function is, the easier it is to choose a descriptive
@@ -121,7 +132,7 @@ catch (Exception e) {
 logger.log(e.getMessage());
 }
 ```
-How to clearify:
+<h1>How to clearify:</h1>
 
 few simple method extractions, some renaming, and a little restructuring
 
@@ -129,5 +140,5 @@ Do One thing ... for class and function ofcourse! Add this idea to each line... 
 
 Sections should not be devided. sections such as declarations, initializations, and sieve -> Comment this process
 
-Each function should have only one level of abstraction. Imagine that you have a lot of clear functions which are only connecting on level of abstarction. Then it is very easy to cluster them in the smallescommonality and put them in a library again. if you cross more abstractionlevels ... you will have a lot of functions which are not compareable. Maybe the way is the same...but the goal of each is different... and you will not be able to simlify them... split to one-to-on layer tg gn#ml·ä
-#
+Each function should have only one level of abstraction. Imagine that you have a lot of clear functions which are only connecting on level of abstarction. Then it is very easy to cluster them in the smallescommonality and put them in a library again. if you cross more abstractionlevels ... you will have a lot of functions which are not compareable. Maybe the way is the same...but the goal of each is different... and you will not be able to simlify them... split to one-to-one layer and avoid double code
+w
