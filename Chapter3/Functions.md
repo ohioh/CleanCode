@@ -121,3 +121,6 @@ catch (Exception e) {
 logger.log(e.getMessage());
 }
 ```
+How to clearify:
+
+few simple method extractions, some renaming, and a little restructuring
