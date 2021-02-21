@@ -34,21 +34,22 @@ There are some simple rules for good naming in code.
 }
   
   ```
-  Notice carefully the code doesnt get more complex or large , it is still the same but more meaningfull.
-   ## Avoid Disinformation
+Notice carefully the code doesnt get more complex or large , it is still the same but more meaningfull.
+
+## Avoid Disinformation
    Dont place any name that far from intended meaning. Like hp, eco, aix those are poor variable name to give , those have special meaning programming. 
    Another thing is group , list or bunch. If you say numberlist it will like list variable . So could be groupOfNumber or bunchOf Number.
    A truly disinformative name is with lower case of l and uppercase of o. Like
      ```
      int a = l;
-if ( O == l )
-a = O1;
-else
-l = 01;
+     if ( O == l )
+       a = O1;
+     else
+       l = 01;
        ```
-   Too much congusing about 0 or O and 1 or l
+Too much congusing about 0 or O and 1 or l
    
-   ## Make Meaningful Distinctions
+## Make Meaningful Distinctions
 When you want to declare some series variable dont do this like a1[] , a[]2.... Those are not disinformative those noninformative. Not a clue what are going to do with this.
 Noise words are another meaningless distinction. Supppose you have Car class , then you have added CarDetails or CarInfo. Those are with same meaning with different class.
 Another thing should must avoid that redudndant naming. Like NameString , CarObject , VarCar . Name will be always string for coding sake. And keep giving var in variable name is like giving name human to a human.
