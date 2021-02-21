@@ -118,7 +118,7 @@ It helps to find the right name by imagination of building a house.
 - function/methods as the needed processes  createFundament , mixConcrete  (What is done with which goal?)
 - (additional: Accessoren, Mutatoren und Prädikate sollten nach ihrem Wert benannt werden und mit ***get*** vorangestellt werden,
 ***set***)
-- variables as the needed materials water,sand ....  ( what do i use?)
+- variables as the needed materials water,sand ....  ( what do i use?) boolian with is... for the two types of state 
 - arguments to concationate the materials  WATER,SAND
 - and the filename HouseFundamentBuilder  (the generalized form of the name)
 
