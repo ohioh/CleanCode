@@ -115,14 +115,14 @@ global Variables: BIG -> snakeCase (All Caps)
 
 It helps to find the right name by imagination of building a house.
 - Class as the result BuildProcessHouseFundament  (What for What? two part )
-- function as the needed processes  createFundament , mixConcrete  (What is done with which goal?)
+- function/methods as the needed processes  createFundament , mixConcrete  (What is done with which goal?)
 - (additional: Accessoren, Mutatoren und Prädikate sollten nach ihrem Wert benannt werden und mit ***get*** vorangestellt werden,
 ***set***)
 - variables as the needed materials water,sand ....  ( what do i use?)
 - arguments to concationate the materials  WATER,SAND
 - and the filename HouseFundamentBuilder  (the generalized form of the name)
 
-***The length of a name should correspond to the size of its scope***
+***The length of a name should correspond to the size of its scope*** -> Pick One Word per Concept -> Use Solution Domain Names or - Problem Domain Names
 
 thanksForReading!
 ThanksForReading!
