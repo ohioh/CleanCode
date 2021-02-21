@@ -53,9 +53,13 @@ Too much congusing about 0 or O and 1 or l
 When you want to declare some series variable dont do this like a1[] , a[]2.... Those are not disinformative those noninformative. Not a clue what are going to do with this.
 Noise words are another meaningless distinction. Supppose you have Car class , then you have added CarDetails or CarInfo. Those are with same meaning with different class.
 Another thing should must avoid that redudndant naming. Like NameString , CarObject , VarCar . Name will be always string for coding sake. And keep giving var in variable name is like giving name human to a human.
+
+
 ## Use Good Names
 Good names means pronouciable and searchable names. That is easier to understand . Again you are a author and you have to make others to understand. That people can understand this name and its work . On the otherhand people can search easily your varibles by its use. 
 It is good practice to use more short name in local variable that global variable.
+The idea behind is the wished result. You Code should get a understandable soul. If your are creating a code to build a house... the reader should be able to get the idea... "Ah a house has a roof" and should be able to find the roof by a word search
+
  ## Always Avoid Encoding
  We tend to give name as short form. Like phonNum, AddInfo(Address info). It is too much confusing and another burden.  In modern IDE we dont need to do this . If you give complete name  ,it will enforce you write the full name. 
  Another problem in namig is prefix . like m_somethinf , f_something. We dont those. For example 
@@ -113,6 +117,7 @@ It helps to find the right name by imagination of building a house.
 - arguments to concationate the materials  WATER,SAND
 - and the filename HouseFundamentBuilder  (the generalized form of the name)
 
+***The length of a name should correspond to the size of its scope***
 
 thanksForReading!
 ThanksForReading!
