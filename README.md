@@ -41,6 +41,11 @@ If you continue the development with unclean code, later modification and adding
 The Grand Redesign in the Sky
 When you will realise that the we cannt make any changes on that messy code , you have to redesign the same functionality code with deiffernt experts. And if that experts dont code cleanely then you have to redesign it again and again.
 
+Goals to learn:
+Software -> Programme -> ("Program"-)Code -> Task -> Segment -> Section -> Unit -> Line -> Comments
+
+Topic Goals defined in the ISO 25000:Functionality, Reliability, Useability, Efficience, Modifiability, Portability
+
 ## Chapter 2:  Meaningfull name
 ## Chapter 3: Functions
 ## Chapter 4: Comments
