@@ -14,7 +14,7 @@ We can do this by blocking and intending . Every if, else, while should have one
 FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL.
 THEY SHOULD DO IT ONLY.
 
-Yes man thats right. Every single job should be different function. So devide the function into sections , make the sections into functions. Dont mixed up the abstraction of a function with other function. This will make sure that your function have one jobe to do.
+Yes man thats right. Every single job should be different function. So devide the function into sections , make the sections into functions. Dont mixed up the abstraction of a function with other function. This will make sure that your function has ***one*** jobe to do.  doJobWell()
 
 ## Switch Statements
 Unfortunately
