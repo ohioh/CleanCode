@@ -1,16 +1,20 @@
-# Chapter 2:  Meaningfull name
-We use lots of naming in our code like variable name, class name , function name etc. Clean code requires clean and meeningfull names. 
+# Chapter 2:  Meaningfull name 
+We use lots of naming in our code like variable name, class name and names for functions, methods, files, arguments, states, packages, methods etc. Clean code requires clean and meeningfull names to fullfill our own quality guide.
+
 There are some simple rules for good naming in code.
  ## Use Intention-Revealing Names
  Every name in your code have to have a name that describe its use and perpose. You also can leave a comment for description .
+ The name should answer the big question about its own self-fulfillment and job. Attention: If you need to add a comment to explain it, the name is wrong
+ int t; //temperature of the messurment -> int messurmentTemerature; -> int  actualTemperature 
+ 
  For example we have piece of code here.
  ```
  public List<int[]> getThem() {
-List<int[]> list1 = new ArrayList<int[]>();
-for (int[] x : theList)
-if (x[0] == 4)
-list1.add(x);
-return list1;
+  List<int[]> list1 = new ArrayList<int[]>();
+  for (int[] x : theList)
+   if (x[0] == 4)
+    list1.add(x);
+  return list1;
 }
  ```
  
@@ -22,11 +26,11 @@ return list1;
  Suppos this is a boardgame code with which we will get the flagged cells.
   ```
   public List<int[]> getFlaggedCells() {
-List<int[]> flaggedCells = new ArrayList<int[]>();
-for (int[] cell : gameBoard)
-if (cell[STATUS_VALUE] == FLAGGED)
-flaggedCells.add(cell);
-return flaggedCells;
+    List<int[]> flaggedCells = new ArrayList<int[]>();
+    for (int[] cell : gameBoard)
+      if (cell[STATUS_VALUE] == FLAGGED)
+        flaggedCells.add(cell);
+    return flaggedCells;
 }
   
   ```
@@ -77,3 +81,32 @@ this.description = description;
  ### Function
  * Function name should be verb or verb phrase. Like getCustomers , addEmployee.
  * Always try to add some prefix like get,add , post etc.
+
+
+
+Focus the implicity of code and names to create meaningfull code (Avoid Disinformation)
+1. What kinds of things are in ....?
+2. What is the significance of the zeroth subscript of .... (Or what are we doing with a methode and why we take this )
+3. What is the significance of the value?
+4. How would I use the output being returned?
+
+<h2>Additionally to a good name we have use a consistent spelling.</h2>
+Using inconsistent spellings is disinformation.
+***camelCase***: iPhone, eBay  -> All Caps: UserLoginCount
+***snakeCase***: hello_world   -> All Caps: USER_LOGIN_COUNT
+***BIG(All Caps)***: AGGREGAT
+***small( and short )*** :  coding
+***_Front***: additionally sign to mention not touching this _dontTouchThis
+
+files: camelCase (All Caps) 
+class: camelCase (All Caps)
+functions:  camelCase (small)
+arguments: BIG
+variables: small -> snakeCase 
+global Variables: BIG -> snakeCase (All Caps) 
+
+
+
+thanksForReading!
+ThanksForReading!
+THANKS_FOR_READING_!
