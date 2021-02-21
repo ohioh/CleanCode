@@ -79,6 +79,9 @@ this.description = description;
 }
  ```
  
+ Often discussed it the beginning to clearify the type of an value int_Sand_in_KG int_Water_in_Liter str_Name_of_House
+ 
+ 
  ## Some tips for Class and Method Names
  ### Class
  * Class name shoud be Noun or none phrase like employee , Customer. 
