@@ -124,3 +124,10 @@ logger.log(e.getMessage());
 How to clearify:
 
 few simple method extractions, some renaming, and a little restructuring
+
+Do One thing ... for class and function ofcourse! Add this idea to each line... one line has to do one thing .... this to that -> nextline how...  
+
+Sections should not be devided. sections such as declarations, initializations, and sieve -> Comment this process
+
+Each function should have only one level of abstraction. Imagine that you have a lot of clear functions which are only connecting on level of abstarction. Then it is very easy to cluster them in the smallescommonality and put them in a library again. if you cross more abstractionlevels ... you will have a lot of functions which are not compareable. Maybe the way is the same...but the goal of each is different... and you will not be able to simlify them... split to one-to-on layer tg gn#ml·ä
+#
