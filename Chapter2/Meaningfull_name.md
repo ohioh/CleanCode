@@ -105,6 +105,12 @@ arguments: BIG
 variables: small -> snakeCase 
 global Variables: BIG -> snakeCase (All Caps) 
 
+It helps to find the right name by imagination of building a house.
+- Class as the result BuildProcessHouseFundament
+- function as the needed processes  createFundament , mixConcrete
+- variables as the needed materials water,sand ....
+- arguments to concationate the materials  WATER,SAND
+- and the filename HouseFundamentBuilder
 
 
 thanksForReading!
