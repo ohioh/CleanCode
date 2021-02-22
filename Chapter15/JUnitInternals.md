@@ -160,7 +160,10 @@ return fExpected.substring(fExpected.length() - fSuffix + 1, end) +
 fContextLength ? ELLIPSIS : "");
 }
 
-
+We have satisfied the Boy Scout Rule. We have left this module a bit cleaner than
+we found it. Not that it wasn’t clean already. The authors had done an excellent job with it.
+But no module is immune from improvement, and each of us has the responsibility to
+leave the code a little better than we found it.
   
   
   
