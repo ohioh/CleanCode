@@ -19,7 +19,7 @@ that cleaning up the code will break it!
 
 # No duplication
 Redundance or duplication is always suggsted to be avoidded. It is our first enemy. 
-
+```
 public void scaleToOneDimension(
 float desiredDimension, float imageDimension) {
 if (Math.abs(desiredDimension - imageDimension) < errorThreshold)
@@ -38,10 +38,10 @@ image, degrees);
 image.dispose();
 System.gc();
 image = newImage;
-
+```
 In this code we should eliminate the small amount of duplication between
 the scaleToOneDimension and rotate methods:
-
+```
 public void scaleToOneDimension(
 float desiredDimension, float imageDimension) {
 if (Math.abs(desiredDimension - imageDimension) < errorThreshold)
@@ -59,7 +59,7 @@ image.dispose();
 System.gc();
 image = newImage;
 }
-
+```
 # Expressive
 
 We can keep our code expressive by keeping good name , keeping our function small ,using stadard nomenculture.Well-written unit tests are also expressive. A primary goal of tests is to act as documentation
