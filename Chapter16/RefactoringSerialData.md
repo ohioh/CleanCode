@@ -44,4 +44,15 @@ increased, some bugs were fixed, the code was clarified and shrunk. The next per
 look at this code will hopefully find it easier to deal with than we did. That person will also
 probably be able to clean it up a bit more than we did.So like this with our clean concept we can refactor a code . This process is more efficient for cleaning up any draft code. We dont create anynew sytem for being draft.
 
+## Few Last Word
+
+Refactoring a code is very important thing of a project . Unclean code could happen in any sytem. We need to refactore them often. So For refactoring we need take few steps
+
+### Make it work
+Test the whole code and fix the testing errors
+
+### Make it Right
+
+Clean the whole code we cleaning methods.
+
 
