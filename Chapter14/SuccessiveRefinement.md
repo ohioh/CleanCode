@@ -1,7 +1,7 @@
 # Chapter 14: Successive Refinement
 In this chapter we will talk about Successive Refinent. We will discuss how to refactor and clean any unscalable module.
 Here are some code.
-
+```
 public static void main(String[] args) {
 try {
 Args arg = new Args("l,p#,d*", args);
@@ -13,13 +13,13 @@ executeApplication(logging, port, directory);
 System.out.printf("Argument error: %s\n", e.errorMessage());
 }
 }
-
+```
 We have string array argument in main function. And we create Args instance. Args is very simple to use. You simply construct the Args class with the input arguments
 and a format string, and then query the Args instance for the values of the arguments.
 
 ## Args Implementation
 Here we have implemented The arg class
-
+```
 package com.objectmentor.utilities.args;
 import static com.objectmentor.utilities.args.ArgsException.ErrorCode.*;
 import java.util.*;
@@ -112,6 +112,7 @@ public String[] getStringArray(char arg) {
 return StringArrayArgumentMarshaler.getValue(marshalers.get(arg));
 }
 }
+```
 Notice that you can read this code from the top to the bottom without a lot of jumping
 around or looking ahead. The one thing you may have had to look ahead for is the definition
 of ArgumentMarshaler, which I left out intentionally. Having read this code carefully,
