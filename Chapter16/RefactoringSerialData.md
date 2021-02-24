@@ -15,7 +15,7 @@ So what should we do first for start refactoring a code , start with testing , t
 ## Then Make It Right
 After all the testing then we are goimg to clean the programm. Cleaning the progrmm meanes we have to make every class , function , variable in order through our cleaning rules. In this class there was a class called Daydate. That class inherits from Comparable,
 Serializable , MonthConstants. But Month constant should not be inherited  . Inherit a constant is backdated coding system. insted of that we make a enum
-
+```
 public static enum Month {
 JANUARY(1),
 FEBRUARY(2),
@@ -29,7 +29,7 @@ SEPTEMBER(9),
 OCTOBER(10),
 NOVEMBER(11),
 DECEMBER(12);
-
+```
 This is more cleaner than that. ther was Static final variable called EARLIEST_DATE_ORDINAL. The naming is good but the final value was unexplained clealy. We fixed this with more comment. 
 
 On other abstract class called daydate ther was unusual implementation of that . Making it more cleaner we Declared a factory class about that . Factory class is more way modern and helpful. 
