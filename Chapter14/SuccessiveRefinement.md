@@ -3,15 +3,15 @@ In this chapter we will talk about Successive Refinent. We will discuss how to r
 Here are some code.
 ```
 public static void main(String[] args) {
-try {
-Args arg = new Args("l,p#,d*", args);
-boolean logging = arg.getBoolean('l');
-int port = arg.getInt('p');
-String directory = arg.getString('d');
-executeApplication(logging, port, directory);
-} catch (ArgsException e) {
-System.out.printf("Argument error: %s\n", e.errorMessage());
-}
+  try {
+    Args arg = new Args("l,p#,d*", args);
+    boolean logging = arg.getBoolean('l');
+    int port = arg.getInt('p');
+    String directory = arg.getString('d');
+    executeApplication(logging, port, directory);
+  } catch (ArgsException e) {
+    System.out.printf("Argument error: %s\n", e.errorMessage());
+  }
 }
 ```
 We have string array argument in main function. And we create Args instance. Args is very simple to use. You simply construct the Args class with the input arguments
