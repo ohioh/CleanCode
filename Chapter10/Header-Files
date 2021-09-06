@@ -1,0 +1,27 @@
+## Refactoring with Header-files and function-file
+
+In this case we use classes and files structure to refactor the code to optimize readability.
+In your Maincode, you have to impliment the header file to have access to the class and destructured functionality.
+The header file  lets call it like the sensor in this example. Important is the syntax to name the file like the Class.
+The compiler needs this information to get the right enrty point to compose the code.
+
+
+```
+#ifndef DHT22_H  //necessary for tghe compiler to safe work time
+#define DHT22_H
+
+#include <Arduino.h>
+
+class DHT22()
+{
+  private:
+  
+  public:
+  DHT22(); //default constructor
+  
+  
+};
+#endif
+
+
+````
