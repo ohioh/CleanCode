@@ -9,6 +9,17 @@ Robert C. “Uncle Bob” Martin has been a software professional since 1970 and
 C Based Ideas for a good Code: https://opensource.com/article/19/5/how-write-good-c-main-function</br>
 Addtional Clean Coder knowledge: https://cleancoders.com/
 
+Design-Principles:
+1.  Separation of Concerns 				-> Each class has exactly one responsibility
+2.  DRY: Don‘t Repeat Yourself  "Once and only once"    -> Same or similar code should be present in the system only once
+3.  Speaking Code Principle				-> The code should "speak" for itself like a book.
+4.  Open Closed Principle				-> A component should be open for extensions.  Existing clients should not become invalid in the event of adaptations.
+5.  Liskov Substitution Principle			-> An instance of a class must be usable anywhere in place of its superclass.
+6.  Dependency Inversion				->  High-level concepts should not depend on low-level principle concepts or implementations
+7.  Interface Segregation Principle   			-> Interfaces should be small. The methods of individual interfaces should have a high coupling.
+8.  Common Reuse Principle 				-> The classes of a component are reused as a whole.
+9.   
+
 ## Index
 ```
 	Index:
