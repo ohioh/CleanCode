@@ -18,7 +18,16 @@ Design-Principles:
 6.  Dependency Inversion				->  High-level concepts should not depend on low-level principle concepts or implementations
 7.  Interface Segregation Principle   			-> Interfaces should be small. The methods of individual interfaces should have a high coupling.
 8.  Common Reuse Principle 				-> The classes of a component are reused as a whole.
-9.   
+9.   Common Closure Principle				-> The classes of a component should be closed against the same type of changes.  If a change is made, only one component should be affected.
+10.  Acyclic Dependency Principle			-> Die Abhängigkeitsstruktur zwischen Komponenten  soll azyklisch sein.
+11.  Stable Dependency Principle			-> A component should only depend on components that are at least as stable as itself.
+12.  Stable Abstractions Principle			-> The more stable a component is, the more abstract it should be. Unstable components should be concrete
+13.  Tell, Don‘t Ask					-> Don't ask an object for an object, tell it what to do.
+14.  Inversion of Control				-> An object is passive; it is supplied with all the information it needs from above.
+15.  Law of Demeter					-> Each object should only talk to objects that it holds as attributes or is passed as parameters.  
+
+
+
 
 ## Index
 ```
