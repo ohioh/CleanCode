@@ -2,13 +2,15 @@
 Class is very important part of whole programming part along with functions and statement. So clean class is also important to make our code clean and shine.
 
 ## Class Organization
-For organising class we need to follow some standard . We should start classes with public , private , static variables. The function shold be the follow.  Private utilities should be placed after public function . We’ll first look for
-a way to maintain privacy. Loosening encapsulation is always a last resort. Because Encapsulation is very important for a clean code. Specially getter and setter of varibles will play vital roles.
+For organising class we need to follow some standard . We should start classes with public , private , static variables.
+The function shold be the follow.  Private utilities should be placed after public function . We’ll first look for a way to maintain privacy.
+Loosening encapsulation is always a last resort. Because Encapsulation is very important for a clean code.
+Specially getter and setter of varibles will play vital roles.
 
 ## Classes Should Be Small
-As with functions, smaller is the primary rule when it comes to
-designing classes. As with functions, our immediate question is always “How small?”
-We can look on this code
+As with functions, smaller is the primary rule when it comes to designing classes. As with functions, our immediate question is always “How small?”
+We can look on this code:
+```
 public class SuperDashboard extends JFrame implements MetaDataUser
 public String getCustomizerLanguagePath()
 public void setSystemConfigPath(String systemConfigPath)
@@ -82,10 +84,11 @@ public IdeMenuBar getIdeMenuBar()
 public void showHelper(MetaObject metaObject, String propertyName)
 // ... many non-public methods follow ...
 }
+```
 Most developers would agree that it’s a bit too super in size. Some developers might refer
 to SuperDashboard as a “God class.”
 But if this class only have these functions
-
+```
 public class SuperDashboard extends JFrame implements MetaDataUser
 public Component getLastFocusedComponent()
 public void setLastFocused(Component lastFocused)
@@ -93,6 +96,7 @@ public int getMajorVersionNumber()
 public int getMinorVersionNumber()
 public int getBuildNumber()
 }
+```
 This class is small but its responsibility is big. That how clean code starts.
 The name of a class should describe what responsibilities it fulfills
 We should also be able to write a brief description of the class in about 25 words,
@@ -109,19 +113,21 @@ public int getMajorVersionNumber()
 public int getMinorVersionNumber()
 public int getBuildNumber()
 }
+
 The Version class is a construct that has a high potential for reuse in other
 applications!
 
 Getting software to work and making software clean are two very different activities.
-Most of us have limited room in our heads, so we focus on getting our code to work more
-than organization and cleanliness.We fail to switch to the other concern of organization and cleanliness. Do you want your tools organized into toolboxes with many
+Most of us have limited room in our heads, so we focus on getting our code to work more than organization and cleanliness.
+We fail to switch to the other concern of organization and cleanliness. Do you want your tools organized into toolboxes with many
 small drawers each containing well-defined and well-labeled components? Or do you want
 a few drawers that you just toss everything into?
- # Cohesion
- In general the more variables a method
-manipulates the more cohesive that method is to its class. A class in which each variable is
-used by each method is maximally cohesive.
-Consider the following code , the implemetation of stack
+
+# Cohesion
+In general the more variables a method manipulates the more cohesive that method is to its class.
+A class in which each variable is used by each method is maximally cohesive.
+Consider the following code , the implemetation of stack:
+```
 public class Stack {
 private int topOfStack = 0;
 List<Integer> elements = new LinkedList<Integer>();
@@ -140,6 +146,7 @@ elements.remove(topOfStack);
 return element;
 }
 }
+```
 Here we were trying to seperate the classes into functions.  You should try to separate the variables and methods into two or
 more classes such that the new classes are more cohesive.
   
