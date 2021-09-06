@@ -9,7 +9,7 @@
 
 
 https://www.lattix.com/c-refactoring-tip-primitive-obsession/
-
+https://namespace-cpp.de/std/doku.php/kennen/klassen
 
 Syntax:
 
@@ -19,3 +19,5 @@ access rights
 method and
 attribute agreements (in any order)
 };
+
+
