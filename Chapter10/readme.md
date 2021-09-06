@@ -9,3 +9,13 @@
 
 
 https://www.lattix.com/c-refactoring-tip-primitive-obsession/
+
+
+Syntax:
+
+class classname
+{
+access rights
+method and
+attribute agreements (in any order)
+};
