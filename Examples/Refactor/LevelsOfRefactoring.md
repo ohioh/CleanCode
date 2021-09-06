@@ -214,7 +214,9 @@ void getHumidityDHT22() {
 }
 
 #endif
-
-
-
 ```
+
+The cryptic definition to get sensor data is now more understandable by explaining the name on a funcational ( get... or take.... or set... etc.) Name.
+This is used very lightweight to understand in the main file. On this way we push the depth into the width and complexity of the code will be much easier to understand and readable. We create space for ourselves, so to speak, to comment specifically and to rethink structures in the process of coding.
+
+
