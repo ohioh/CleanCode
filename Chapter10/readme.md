@@ -9,6 +9,8 @@
 
 
 https://www.lattix.com/c-refactoring-tip-primitive-obsession/
+
+
 https://namespace-cpp.de/std/doku.php/kennen/klassen
 
 Syntax:
