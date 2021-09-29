@@ -24,7 +24,10 @@ Design-Principles:
 12.  Stable Abstractions Principle			-> The more stable a component is, the more abstract it should be. Unstable components should be concrete
 13.  Tell, Don‘t Ask					-> Don't ask an object for an object, tell it what to do.
 14.  Inversion of Control				-> An object is passive; it is supplied with all the information it needs from above.
-15.  Law of Demeter					-> Each object should only talk to objects that it holds as attributes or is passed as parameters.  
+15.  Law of Demeter					-> Each object should only talk to objects that it holds as attributes or is passed as parameters. 
+16.   Differentiable programming                        -> is the very basis of deep learning, implemented in software libraries such as  TensorFlow and PyTorch. Differentiable programming is more than deep learning: it is a programming paradigm where the algorithms are not hand-coded, but learned
+
+
 
 
 
