@@ -9,7 +9,7 @@ Robert C. “Uncle Bob” Martin has been a software professional since 1970 and
 C Based Ideas for a good Code: https://opensource.com/article/19/5/how-write-good-c-main-function</br>
 Addtional Clean Coder knowledge: https://cleancoders.com/
 
-Design-Principles:
+### Design-Principles && Paradigms:
 1.  Separation of Concerns 				-> Each class has exactly one responsibility
 2.  DRY: Don‘t Repeat Yourself  "Once and only once"    -> Same or similar code should be present in the system only once
 3.  Speaking Code Principle				-> The code should "speak" for itself like a book.
