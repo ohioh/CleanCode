@@ -84,6 +84,8 @@ public void loadProperties(){
 Clearly it meant something to the
 author, but the meaning does not come through all that well.
 We should avoid the redundant comment to keep our code neet and clean. 
+
+
 ## Some More Tips About comments
 * Dont use too much big and informative Comment
 * Dont use noisy comment. Such as
@@ -99,6 +101,11 @@ No, really? Or how about this:
 * Don’t Use a Comment When You Can Use a Function or a Variable
 * Few practices are as odious as commenting-out code. Don’t do this.
 
+## Example:
+The Adafruit libraries are very well organised and commented:
+I love supporting the **[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/master/Adafruit_CCS811.cpp)**.
+This is the *[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/master/Adafruit_CCS811.cpp)*.
+See the section on [`code`](#code).
 
 
 
