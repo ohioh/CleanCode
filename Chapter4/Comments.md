@@ -105,24 +105,72 @@ No, really? Or how about this:
 The Adafruit libraries are very well organised and commented:
 I love supporting the **[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/master/Adafruit_CCS811.cpp)**.
 This is the *[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/master/Adafruit_CCS811.cpp)*.
+
 ```
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+ *  Mitschrift in der Vorlesung "Programmieren"
+ *  programmieren.cpp
+ *  Purpose: Calculates the total of 6 checks
+ *
+ *  @author Tjark Ziehm
+ *  @version 0.9 15.Oktober 2015 
+ *
+ * Developed for the LSST Data Management System.
+ * This product includes software developed by the LSST Project
+ * (https://www.lsst.org).
+ * See the COPYRIGHT file at the top-level directory of this distribution
+ * for details of code ownership.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Test-Wert für printf-Test
+int zahl = 1;
+
+// Formatspezifizierer %
+// %c : char buchstabe = 'a'
+// &f : float floatZahl = 1.23 ---> cout>> 1.230000 ( 6 stellig nach dem Komma) ->
+// mit %.1f
+// bool ?
 
 /**************************************************************************/
-/*!
-    @brief  Setups the I2C interface and hardware and checks for communication.
-    @param  addr Optional I2C address the sensor can be found on. Default is
-   0x5A
-    @param theWire Optional pointer to I2C interface, &Wire is used by default
+/*!    
+    @brief  Print out variable w/ print 
+    @param  zahl as an integer
     @returns True if device is set up, false on any failure
 */
 /**************************************************************************/
-bool Adafruit_CCS811::begin(uint8_t addr, TwoWire *theWire) {
-  if (i2c_dev)
-    delete i2c_dev;
-  i2c_dev = new Adafruit_I2CDevice(addr, theWire);
-  if (!i2c_dev->begin()) {
-    return false;
-  }
+printf("Zahl = %d", zahl);
+
+/// <summary>Sorts the list to by the given column</summary>
+/// test
+/// test
+void test()
+{
+}
+
+/**
+ * test 
+ * @brief  Print out variable w/ print 
+ */
+void test2()
+{
+}
 ```
 
 
