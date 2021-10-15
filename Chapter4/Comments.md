@@ -105,9 +105,25 @@ No, really? Or how about this:
 The Adafruit libraries are very well organised and commented:
 I love supporting the **[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/master/Adafruit_CCS811.cpp)**.
 This is the *[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/master/Adafruit_CCS811.cpp)*.
-See the section on [`code`](#code).
+```
 
-
+/**************************************************************************/
+/*!
+    @brief  Setups the I2C interface and hardware and checks for communication.
+    @param  addr Optional I2C address the sensor can be found on. Default is
+   0x5A
+    @param theWire Optional pointer to I2C interface, &Wire is used by default
+    @returns True if device is set up, false on any failure
+*/
+/**************************************************************************/
+bool Adafruit_CCS811::begin(uint8_t addr, TwoWire *theWire) {
+  if (i2c_dev)
+    delete i2c_dev;
+  i2c_dev = new Adafruit_I2CDevice(addr, theWire);
+  if (!i2c_dev->begin()) {
+    return false;
+  }
+```
 
 
 
