@@ -22,18 +22,20 @@ Sometime we can use comments for explaining our intention rather than the implem
 
 ```
 String text = "'''bold text'''";
-ParentWidget parent =
-new BoldWidget(new MockWidgetRoot(), "'''bold text'''");
+
+ParentWidget parent = new BoldWidget(new MockWidgetRoot(), "'''bold text'''");
 AtomicBoolean failFlag = new AtomicBoolean();
 failFlag.set(false);
+
 //This is our best attempt to get a race condition
 //by creating large number of threads.
 for (int i = 0; i < 25000; i++) {
-WidgetBuilderThread widgetBuilderThread =
-new WidgetBuilderThread(widgetBuilder, text, parent, failFlag);
-Thread thread = new Thread(widgetBuilderThread);
-thread.start();
+   WidgetBuilderThread widgetBuilderThread =
+   new WidgetBuilderThread(widgetBuilder, text, parent, failFlag);
+   Thread thread = new Thread(widgetBuilderThread);
+   thread.start();
 }
+
 assertEquals(false, failFlag.get());
 ```
 
@@ -44,9 +46,8 @@ We can also can use comments as todo list. That this has to be done in future or
 ```
 //TODO-MdM these are not needed
 // We expect this to go away when we do the checkout model
-protected VersionInfo makeVersion() throws Exception
-{
-return null;
+protected VersionInfo makeVersion() throws Exception {
+  return null;
 }
 ```
 Whatever else a TODO might be, it is not an excuse to leave bad code in
@@ -68,20 +69,18 @@ return buildList(text.substring(match.end()));
 Most of the comments fall into the mumbling inappropriate comment. you should spent some time to write a usefull comment . But not useful for you usefull for reader. If it is not even you cannt understand your comment after few days. 
 
 ```
-public void loadProperties()
-{
-try
-{
-String propertiesPath = propertiesLocation + "/" + PROPERTIES_FILE;
-FileInputStream propertiesStream = new FileInputStream(propertiesPath);
-loadedProperties.load(propertiesStream);
-}
-catch(IOException e)
-{
-// No properties files means all defaults are loaded
-}
+public void loadProperties(){
+  try {
+          String propertiesPath = propertiesLocation + "/" + PROPERTIES_FILE;
+          FileInputStream propertiesStream = new FileInputStream(propertiesPath);
+          loadedProperties.load(propertiesStream);
+      }
+  catch(IOException e){
+          // No properties files means all defaults are loaded
+     }
 }
 ```
+
 Clearly it meant something to the
 author, but the meaning does not come through all that well.
 We should avoid the redundant comment to keep our code neet and clean. 
