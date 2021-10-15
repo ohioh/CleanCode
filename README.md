@@ -96,5 +96,6 @@ Topic Goals defined in the ISO 25000:Functionality, Reliability, Useability, Eff
 ## Chapter 19: Style Guides & UML
 ## Chapter 20: Coding Cycle
 
-
-Helpfull to write good markdown-Readme's: https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting
+### Helpfull to write good markdown-Readme's: 
+I love this on: **[Markdown Tutorial:](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting)**.
+One more *[Markdown Guide](https://www.markdownguide.org/basic-syntax/)*.
