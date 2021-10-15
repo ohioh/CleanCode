@@ -62,7 +62,7 @@ Even bad code can function. But if code isn't clean, it can bring a development 
 Every movement of change needs energy. Aspecially to get a clean coder needs the motivation to go to this process. Oncle Bob did right to show us first the benefit of a clean code.Additional we try to answers the question about differenct views to identify clean code and the problem with bad code. 
 The summary contains the understanding for different perspectives of aggregations to the code and 
 
-Bad Code
+### Bad Code
 We try to develop our product with rush and just working code. we keep cleanning up the codes for later. But day by day the working bad codes create lots of bugs in future. It could breakdown a company for handling those unclean codes. We all know the law later equal never.
 
 The Total Cost of Owning a Mess
@@ -71,7 +71,7 @@ If you continue the development with unclean code, later modification and adding
 The Grand Redesign in the Sky
 When you will realise that the we cannt make any changes on that messy code , you have to redesign the same functionality code with deiffernt experts. And if that experts dont code cleanely then you have to redesign it again and again.
 
-Goals to learn:
+### Goals to learn:
 Software -> Programme -> ("Program"-)Code -> Task -> Segment -> Section -> Unit -> Line -> Comments
 
 Topic Goals defined in the ISO 25000:Functionality, Reliability, Useability, Efficience, Modifiability, Portability
