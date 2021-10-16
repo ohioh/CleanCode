@@ -1,4 +1,11 @@
 # Chapter 4: Comments
+
+1. Comments
+2. Structure
+3. Tags:
+          -Method-Declaration **[cpp-Documentationtags](https://docs.microsoft.com/de-de/cpp/build/reference/delimiters-for-visual-cpp-documentation-tags?view=msvc-160)**
+
+
 Comments are really usefull when you want know others about your code. But only that time you need Comments to make understand others about code when you are failed to write understandable code. it is only used for compensation of your failuer. harsh but true.
  So when you find yourself in a position where you need to write a comment, think it
 through and see whether there isn’t some way to turn the tables and express yourself in
