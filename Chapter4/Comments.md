@@ -119,10 +119,12 @@ This is the *[adafruit ccs811](https://github.com/adafruit/Adafruit_CCS811/blob/
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
+ *  CS-11 Asn 2: Calculates the total of 6 checks
  *  Mitschrift in der Vorlesung "Programmieren"
  *  programmieren.cpp
  *  Purpose: Calculates the total of 6 checks
- *
+ *  
+ *  @file checks.cpp
  *  @author Tjark Ziehm
  *  @version 0.9 15.Oktober 2015 
  *
@@ -204,6 +206,8 @@ void test2()
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 ```
 
