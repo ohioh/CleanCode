@@ -208,6 +208,15 @@ void test2()
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+/*
+|| This event is defined but not used in the code. No
+|| point in wasting codespace on it.
+||
+|| case EV_RFU1:
+||     Serial.println(F("EV_RFU1"));
+||     break;
+*/
+
 
 ```
 
