@@ -2,6 +2,8 @@
 
 Refactoring: https://de.wikipedia.org/wiki/Refactoring
 
+The Art of Code by Dylan Beattie https://www.youtube.com/watch?v=6avJHaC3C2U
+
 A Summary of Clean Code Book from Robert C. Martin (Autor) *big thanks for the coding lessons*
 
 Robert C. “Uncle Bob” Martin has been a software professional since 1970 and an international software consultant since 1990. He is founder and president of Object Mentor, Inc., a team of experienced consultants who mentor their clients worldwide in the fields of C++, Java, C#, Ruby, OO, Design Patterns, UML, Agile Methodologies, and eXtreme programming.
